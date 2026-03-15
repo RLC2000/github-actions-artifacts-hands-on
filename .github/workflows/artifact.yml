@@ -44,6 +44,6 @@ jobs:
           run: |
             git config --global user.name "rlc2000"
             git config --global user.email "rasham.chhetri@gmail.com"
-            git add ./artifacts/hello.txt
+            git add ./.artifacts/hello.txt
             git commit -m "artifact"
             git push
