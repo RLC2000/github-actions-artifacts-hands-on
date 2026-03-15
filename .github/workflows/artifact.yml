@@ -42,8 +42,8 @@ jobs:
         
         - name: PushIt
           run: |
-            git global -username="rlc200"
-            git gloabl -email="rasham.chhetri@gmail.com"
+            git --global user.name="rlc200"
+            git --gloabl user.email="rasham.chhetri@gmail.com"
             git add ./artifacts/hello.txt
             git commit -m "artifact"
             git push
