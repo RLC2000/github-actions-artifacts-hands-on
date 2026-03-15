@@ -42,7 +42,7 @@ jobs:
         
         - name: PushIt
           run: |
-            git config --global user.name="rlc200"
+            git config --global user.name="rlc2000"
             git config --gloabl user.email="rasham.chhetri@gmail.com"
             git add ./artifacts/hello.txt
             git commit -m "artifact"
