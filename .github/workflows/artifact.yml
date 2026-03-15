@@ -37,14 +37,14 @@ jobs:
         - name: Display
           run: cat ./artifacts/hello.txt
         
-        - name: Checkout
-          uses: actions/checkout@v4
+        # - name: Checkout
+        #   uses: actions/checkout@v4
         
-        - name: PushIt
-          run: |
-            git config --global user.name "rlc2000"
-            git config --global user.email "rasham.chhetri@gmail.com"
-            git pull
-            git add ./artifacts/hello.txt
-            git commit -m "artifact"
-            git push
+        # - name: PushIt
+        #   run: |
+        #     git config --global user.name "rlc2000"
+        #     git config --global user.email "rasham.chhetri@gmail.com"
+        #     git pull
+        #     git add ./artifacts/hello.txt
+        #     git commit -m "artifact"
+        #     git push
